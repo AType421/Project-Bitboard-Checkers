@@ -25,30 +25,12 @@ gcc -o convert checkers bitboard.c
 ## Game instructions
 To move a checkers piece, type in the index of the piece you want to move and then type in the index of the destination you want to move that piece 
 
-    +---------------------------------------------------+
- 8  | 56 57 58 59 60 61 62 63 |
- 7  | 48 49 50 51 52 53 54 55 |
- 6  | 40 41 42 43 44 45 46 47 |
- 5  | 32 33 34 35 36 37 38 39 |
- 4  | 24 25 26 27 28 29 30 31 |
- 3  | 16 17 18 19 20 21 22 23 |
- 2  | 08 09 10 11 12 13 14 15 |
- 1  | 00 01 02 03 04 05 06 07 |
-    +---------------------------------------------------+
-       a  b  c  d  e  f  g  h
+<img width="686" height="290" alt="image" src="https://github.com/user-attachments/assets/10a250c3-b6e1-484a-9df4-d4fc96ef5beb" />
+
 ^^This is a reference of what index the pieces will be
 
-    +---------------------------------+
- 8  | . b . b . b . b |
- 7  | b . b . b . b . |
- 6  | . b . b . b . b |
- 5  | . . . . . . . . |
- 4  | . . . . . . . . |
- 3  | r . r . r . r . |
- 2  | . r . r . r . r |
- 1  | r . r . r . r . |
-    +---------------------------------+
-      a b c d e f g h
+<img width="493" height="236" alt="image" src="https://github.com/user-attachments/assets/9aa6f8fa-3d2d-4388-9f80-4fcf918bcd8f" />
+
 
 ^^This is the actual board
 
